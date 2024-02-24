@@ -6,9 +6,8 @@ function App() {
  
   return (
     <UserContextProvider>
-     <h1>Mukid momin</h1>
+    
      <Login/>
-     <Profile/>
     </UserContextProvider>
   )
 }

@@ -5,7 +5,8 @@ import React from 'react'
 function Profile() {
    const {user}=useContext(UserContext);
   if (!user) return <div>Please Login</div>
-  return <div>Welcome Dear, {user.username}</div>
+  return <div className="text-lg font-semibold"
+  >Welcome Dear, {user.username}</div>
  
 }
 
