@@ -3,7 +3,7 @@ import './App.css'
 
 
 function App() {
-  let [color, setColor] = useState("rgba(0,0,0,0.2)");
+  let [color, setColor] = useState("rgba(0,0,0,0.9)");
   return (
     <>
       <div  className=' flex justify-center w-[1349px] h-[610px]' style={{backgroundColor:color}}>
