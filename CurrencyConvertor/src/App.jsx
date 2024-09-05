@@ -3,6 +3,7 @@ import {InputBox} from './components'
 import useCurrencyInfo from './hooks/usecurrencyInfo'
 
 
+
 function App() {
 
   const [amount, setAmount] = useState(0)
@@ -29,7 +30,7 @@ function App() {
     <>
     <div className="flex ">
     <div className="w-[50%] h-screen bg-red-500 bac bg-cover bg-no-repeat"
-           style={{backgroundImage: `url('https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`}}
+           style={{backgroundImage: `url('https://images.pexels.com/photos/1722183/pexels-photo-1722183.jpeg?auto=compress&cs=tinysrgb&w=600')`}}
      ></div>
 
     <div
@@ -52,7 +53,7 @@ function App() {
                             label="From"
                             amount={amount}
                             currencyOptions={options}
-                            onCurrencyChange={(currency) => setAmount(amount)}
+                            onCurrencyChange={(currency) => setFrom(currency)}
                             selectCurrency={from}
                             onAmountChange={(amount) => setAmount(amount)}
                         />
@@ -78,7 +79,7 @@ function App() {
                         />
                     </div>
                     <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
-                        Convert {from.toUpperCase()} to {to.toUpperCase()} {"->" +convertedAmount}
+                        Convert {from.toUpperCase()} to {to.toUpperCase()} 
                     </button>
                 </form>
             </div>
