@@ -1,0 +1,91 @@
+[
+   {
+     "id": 1,
+     "countryName": "Australia",
+     "capital": "Canberra",
+     "population": 25788217,
+     "interestingFact": "Australia is home to the Great Barrier Reef, the largest coral reef system in the world."
+   },
+   {
+     "id": 2,
+     "countryName": "Brazil",
+     "capital": "Brasilia",
+     "population": 213993437,
+     "interestingFact": "Brazil has the Amazon Rainforest, which produces 20% of the world's oxygen."
+   },
+   {
+     "id": 3,
+     "countryName": "Canada",
+     "capital": "Ottawa",
+     "population": 38454327,
+     "interestingFact": "Canada has the longest coastline of any country in the world, stretching over 202,080 km."
+   },
+   {
+     "id": 4,
+     "countryName": "China",
+     "capital": "Beijing",
+     "population": 1425677000,
+     "interestingFact": "China is the most populous country in the world and is home to the Great Wall, one of the Seven Wonders of the World."
+   },
+   {
+     "id": 5,
+     "countryName": "Egypt",
+     "capital": "Cairo",
+     "population": 111270000,
+     "interestingFact": "Egypt is known for its ancient pyramids, which are one of the Seven Wonders of the Ancient World."
+   },
+   {
+     "id": 6,
+     "countryName": "France",
+     "capital": "Paris",
+     "population": 68042577,
+     "interestingFact": "France is home to the Eiffel Tower, one of the most recognizable structures in the world."
+   },
+   {
+     "id": 7,
+     "countryName": "Germany",
+     "capital": "Berlin",
+     "population": 83783945,
+     "interestingFact": "Germany is the largest economy in Europe and is known for its automotive industry, including brands like BMW and Mercedes-Benz."
+   },
+   {
+     "id": 8,
+     "countryName": "India",
+     "capital": "New Delhi",
+     "population": 1411731000,
+     "interestingFact": "India is the birthplace of four major world religions: Hinduism, Buddhism, Jainism, and Sikhism."
+   },
+   {
+     "id": 9,
+     "countryName": "Indonesia",
+     "capital": "Jakarta",
+     "population": 276361783,
+     "interestingFact": "Indonesia is the largest archipelago in the world, with more than 17,000 islands."
+   },
+   {
+     "id": 10,
+     "countryName": "Italy",
+     "capital": "Rome",
+     "population": 58749774,
+     "interestingFact": "Italy is home to the Colosseum and the Vatican, two of the most visited tourist destinations in the world."
+   },
+   {
+     "id": 11,
+     "countryName": "Japan",
+     "capital": "Tokyo",
+     "population": 125360000,
+     "interestingFact": "Japan is known for its technology advancements and unique culture, and Tokyo is the most populous metropolitan area in the world."
+   },
+   {
+     "id": 12,
+     "countryName": "Kenya",
+     "capital": "Nairobi",
+     "population": 55924180,
+     "interestingFact": "Kenya is famous for its safaris and is home to the 'Big Five' game animals: lions, leopards, elephants, rhinos, and buffalo."
+   }
+   
+  
+ ]
+ 
+
+ 
