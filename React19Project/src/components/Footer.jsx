@@ -28,7 +28,7 @@ function Footer() {
             </div>
     </footer>
 
-    <p className='text-gray-500 bg-[#273240] text-center font-semibold text-sm  md:mr-7 cursor-pointer'>Copyright © 2024  All rights reserved <span className='text-blue-500'>
+    <p className='text-gray-500 bg-[#273240] text-center font-semibold text-sm  md:mr-7 cursor-pointer pb-5'>Copyright © 2024  All rights reserved <span className='text-blue-500'>
     Momin Mukid</span></p>
 
     </>
