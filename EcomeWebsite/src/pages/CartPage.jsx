@@ -34,7 +34,7 @@ function CartPage() {
       let todos = JSON.parse(localStorage.getItem('products'));
       if (todos && todos.length > 0) {
          setlsData(todos)
-         console.log(todos);
+     
          
       }
    }, [])

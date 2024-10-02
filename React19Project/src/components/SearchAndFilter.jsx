@@ -3,8 +3,8 @@ import React from 'react'
 function SearchAndFilter({ search, setSearch, filter, setFilter, sortCountries }) {
 
    return (
-      <div className='flex justify-between flex-wrap items-center w-full md:w-[70%]'>
-         <input type="text" placeholder='Search' value={search} onChange={(e) => setSearch(e.target.value)} className='p-2 w-[90%] md:w-[40%] bg-slate-700 text-white rounded-md outline-none m-2 ' />
+      <div className='flex justify-between flex-wrap items-center w-[95%] md:w-[70%] p-5'>
+         <input type="text" placeholder='Search' value={search} onChange={(e) => setSearch(e.target.value)} className='p-2 w-[90%] md:w-[40%] bg-slate-700 text-white rounded-md outline-none m-2 mb-5 md:mb-0 ' />
 
          <button onClick={() => sortCountries('asc')} className='p-2 rounded-md bg-slate-700 text-white outline-none'>ASC</button>
 
