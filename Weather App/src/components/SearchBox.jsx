@@ -8,6 +8,7 @@ function SearchBox({
   return (
    <div className=' w-[95%] md:w-[32%] min-h-20 bg-[#E9EBF8] rounded-t-md flex flex-col justify-center items-center shadow-xl shadow-gray-900 p-5'>
 
+      <label className='text-start'>Enter city name</label>
    <div className='w-full border border-black flex rounded-md '>
       <input type="text" className='w-[90%] px-2 py-2  outline-none  rounded-l-md ' placeholder='Search by city name'
          value={Search}

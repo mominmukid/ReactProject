@@ -1,4 +1,9 @@
 import Loder from './Loder';
+import { WiHumidity } from "react-icons/wi";
+import { FaWind } from "react-icons/fa6";
+import { WiSunrise } from "react-icons/wi";
+import { BsClouds } from "react-icons/bs";
+import { useEffect, useState } from 'react';
 
 function Card({
   Data,
@@ -6,6 +11,20 @@ function Card({
   loader,
   hidden,
 }) {
+   const [sunrise,setsunrise]=useState('');
+  
+
+
+  useEffect(()=>{
+   if(Data){
+      let date=new Date();
+     const rise= date.toLocaleTimeString(Data?.sys.sunrise);
+     setsunrise(rise);
+     
+     
+   }
+  },[image])
+   
 
   // Check if the loader is active
   if (loader) return <Loder />;
@@ -31,12 +50,17 @@ if(Data.cod==='404'){
         </div>
 
         <div className="w-full mt-5 flex flex-col md:flex-row gap-2 justify-evenly items-center">
-          <p className="font-semibold">
-            Humidity: <span>{Data?.main?.humidity}%</span>
+          <p className="font-semibold flex justify-center items-center">
+            Humidity:&nbsp;<WiHumidity/>&nbsp; <span>{Data?.main?.humidity}%</span>
           </p>
-          <p className="font-semibold">
-            Wind Speed: <span>{Data?.wind?.speed} km/h</span>
+          <p className="font-semibold flex justify-center items-center">
+            Wind Speed:&nbsp; <FaWind/> &nbsp;<span>{Data?.wind?.speed} km/h</span>
           </p>
+        </div>
+
+        <div className='w-[100%] md:w-[80%] mt-2 flex justify-between items-center'>
+         <p className="font-semibold flex justify-center items-center">Sunrise:&nbsp;<WiSunrise/>&nbsp;{sunrise}</p>
+         <p className="font-semibold flex justify-center items-center">Clouds:&nbsp;<BsClouds/>&nbsp;{Data?.clouds.all}%</p>
         </div>
 
         

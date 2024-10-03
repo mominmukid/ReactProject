@@ -20,6 +20,7 @@ function App() {
       const result = await res.json();
       setData(result);
       setData(result)
+      console.log(data);
       setLoader(false);
       setHidden(false);
 
@@ -48,7 +49,7 @@ function App() {
           setImage('/images/sun.png');
           break;
         case 'Haze':
-          setImage('/images/mist.png');
+          setImage('/images/Haze.png');
           break;
         case 'Snow':
           setImage('/images/snow.png');
@@ -56,15 +57,22 @@ function App() {
         case 'Rain':
           setImage('/images/rain_cloud.png');
           break;
+          case 'Mist':
+          setImage('/images/mist.png');
+          break;
+          case 'Thunderstorm':
+            setImage('/images/Thand.png');
+            break;
         default:
           setImage(''); // If weather type isn't handled, set it to an empty string
       }
-    }
+    } 	 
   }, [data]);
 
   return (<>
     <ToastContainer />
     <div className='w-full bg-[#B4B8C5] h-screen flex flex-col justify-center items-center'>
+    <h1 className='font-bold text-2xl mb-10 text-center'>Today's Forecast at Your Fingertips</h1>
       <SearchBox Search={search} setSearch={setSearch} feachApi={fetchApi} />
 
       {/* Conditionally render the Card or Templet component if data is present */}
