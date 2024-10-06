@@ -12,6 +12,7 @@ const ref=useRef(null)
       { dec: 'kandf dldknf nd lakn  amet consectetur adipisicing elit. Error', fileSize: '0.3mb', close: true, tag: { color: 'blue', content: 'download', isopen: true } },
 
       { dec: ' lkasnd snd alksndl laksnd lksanm lnas isicing elit. Error', fileSize: '0.3mb', close: true, tag: { color: 'green', content: 'download', isopen: false } },
+      { dec: ' lkasnd snd alksndl laksnd lksanm lnas isicing elit. Error', fileSize: '0.3mb', close: true, tag: { color: 'yellow', content: 'download', isopen: true } },
    ]
    return (
       <>

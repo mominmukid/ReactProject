@@ -23,6 +23,7 @@ function App() {
       console.log(data);
       setLoader(false);
       setHidden(false);
+      setSearch('');
 
     } catch (error) {
 
